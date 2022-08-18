@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio website on yonatandeneke.com built with React.js
+Portfolio website on yonatandeneke.com
