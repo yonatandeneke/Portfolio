@@ -9,17 +9,16 @@
 
 .name {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .name2 {
     font-weight: bold;
-    color: green;
 }
 
 .job-title {
     font-weight: bold;
-    
+    font-size: 19px;
 }
 
 .location {
@@ -27,7 +26,7 @@
 }
 
 .profilepic {
-    width: 65px;
+    width: 105px;
     border-radius: 100px;
     border: 2px
 }
@@ -92,3 +91,17 @@
     }
     
 }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+a { color:blue}
+
