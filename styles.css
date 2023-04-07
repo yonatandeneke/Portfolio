@@ -23,12 +23,18 @@
 
 .location {
     color: #303332;
+    font-size: 19px;
 }
 
 .profilepic {
-    width: 105px;
-    border-radius: 100px;
-    border: 2px
+    width: 16%;
+    border-radius: 200px;
+}
+
+@media (pointer:none), (pointer:coarse) {
+    .profilepic {
+        width: 60%;
+    }
 }
 
 .locicon {
@@ -40,7 +46,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    width: 50%;
+    width: 90%;
 }
 
 .ButtonContainer {
@@ -50,11 +56,12 @@
 }
 
 .button {
+    color: black;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
-    width: 41%;
+    width: 50%;
     height: 100px;
     border: 2px solid black;
     border-radius: 5px;
@@ -71,10 +78,17 @@
   transform: translateY(4px);
 }
 
+@media (pointer:none), (pointer:coarse) {
+    .button {
+        width: 100%;
+    }
+}
+
 
 
 .dynamic-txts{
     position: relative;
+    font-size: 40px;
 }
 
 .dynamic-txts::after{
