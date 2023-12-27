@@ -1,73 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yonatan Deneke</title>  
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
 
-    <div style="padding-top: 36px;"></div>
-    <div class="HeaderContainer">
-        <div><img class="profilepic" src="assets/images/profilepic.png" alt="profile"></div>
-        
-        <div>
-            <a href="mailto:yonatandeneke@gmail.com"><img src="assets/images/emailicon.png" height="25px" width="25px"></a>
-            <a href="https://www.linkedin.com/in/yonatandeneke/"><img src="assets/images/linkedinicon.png" height="25px" width="25px"></a>
-            <a href="https://github.com/yonatandeneke/"><img src="assets/images/githubicon.png" height="25px" width="25px"></a>
-            <a href="https://www.youtube.com/channel/UCXQj319EUGOw8bpSjH6f07Q"><img src="assets/images/yticon.png" height="25px" width="25px"></a>
-            <a href="http://yonatandeneke.com/Resume.pdf"><img src="assets/images/resumeicon.png" height="25px" width="25px" width="25px"></a>
-        </div>
-
-        <div class="location"><img class="locicon" src="assets/images/locicon.png"> Houston, TX</div>
-        <br>
-
-        <div class="dynamic-txts">hi, i'm <span style="color:blue">yonatan</span>.&nbsp</div>
-        <br>
-        <div class="description">
-        I'm a Software Engineer and my interests include full-stack development, app development, and much more.
-
-        <br>
-        I'm currently working towards a Bachelor's Degree, majoring in Computer Science and minoring in Mathematics at the <a href="https://www.uh.edu/nsm/computer-science/"><b>University of Houston</b></a>. 
-        <br>
-        </div>
-        <br>
-
-        
+    <title>Yonatan Deneke</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/97761d48c0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#"><i class="fas fa-home"></i> Yonatan Deneke</a>
+      <a href="#home"><i class="fas fa-home"></i> Home</a>
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+      <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/yonatandeneke/" class="icon-link"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/yonatandeneke/" class="icon-link"><i class="fab fa-github"></i></a>
+        <a href="http://yonatandeneke.com/Resume.pdf" class="icon-link"><i class="fas fa-file"></i></a>
+      </div>
     </div>
-
     
-    <div class="ButtonContainer">
-        <a href="mailto:yonatandeneke@gmail.com">
-            <button class="button" type="button"><b>Email Me</b><br>Say hi!</button>
-        </a>
-        <br><br>
-        <a href="https://www.linkedin.com/in/yonatandeneke/">
-            <button class="button" type="button"><b>LinkedIn</b><br>Connect with me!</button>
-        </a>
-        <br><br>
-        <a href="https://github.com/yonatandeneke/">
-            <button class="button" type="button"><b>GitHub</b><br>Software Creations</button>
-        </a>
-        <br><br>
-        <a href="https://www.youtube.com/channel/UCXQj319EUGOw8bpSjH6f07Q">
-            <button class="button" type="button"><b>YouTube</b><br>Subscribe!</button>
-        </a>
-        <br><br>
-        <a href="http://www.yonatandeneke.com/Resume.pdf">
-            <button class="button" type="button"><b>Resume</b></button>
-        </a>
-        <br><br><br><br>
-        Website under construction...<br><br>
-        <div class="ending">
-            Built and designed by Yonatan Deneke.<br>
-            All rights reserved. ©<br>
-        </div>
-    </div>
-
     
 
-</body>
+    <section id="home">
+      <div style="padding-top: 36px"></div>
+      <div class="HeaderContainer">
+        
+        <div class="dynamic-txts">
+          hi, i'm
+          <span style="color: mediumseagreen; font-weight: bold">yonatan</span
+          >.&nbsp
+        </div>
+        
+        <span style="font-size: 35px; color: white;">I'm a software engineer.</span>
+      </div>
+    </section>
+
+    <br><br><br>
+    <section id="about">
+      <div class="aboutContent">
+        <div class="about-text">
+          <p>
+            <h1>// about</h1>
+            I am currently attending the <span style="color: mediumseagreen">University of Houston</span>, working towards a
+            Bachelor's Degree majoring in Computer Science and minoring in
+            Mathematics.
+            <br />
+            I will be joining <span style="color: mediumseagreen">Toast</span> as a full-time Software Engineer in 2024.
+          </p>
+        </div>
+        <!-- Add the image below -->
+        <img src="assets/images/profilepic.png" alt="Yonatan Deneke" class="about-image">
+      </div>
+    </section>
+    
+    
+
+    <section id="experience">
+      <div class="experienceContent">
+        <h1>// experience</h1>
+
+        <h3>Software Engineer @ <span style="color: mediumseagreen">Toast</span></h3>
+        INCOMING JUL 2024
+
+        <h3>
+          Software Engineer Intern @ <span style="color: mediumseagreen">Toast</span>
+        </h3>
+        JUN 2023 - AUG 2023
+        <ul>
+          <li>
+            Worked with senior developers on the Payments Digital Team to plan
+            out the roll out of the new version of JP Morgan’s Merchant Services
+            Development Kit, which is used in our Credit Card processing system
+            which over 85,000 restaurants use.
+          </li>
+          <li>
+            Developed software in Java that generates a series of financial
+            binary data files in order to test for bugs and changes found in the
+            new version of JP Morgan’s Merchant Services Development Kit
+          </li>
+          <li>
+            Identified & discovered bugs that the Payments Digital Team did not
+            know before, which prevented eventual problems.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="projectsContent">
+        <h1>// projects</h1>
+        <div class="grid-container">
+          <a href="https://github.com/yonatandeneke/FoodForge" class="grid-item">Food Forge</a>
+          <a href="https://github.com/yonatandeneke/Memo" class="grid-item">Memo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contactContent">
+        <h1>// contact</h1>
+        Have a question? Have an idea? Just want to say hi? Leave your details
+        and I'll get back to you as soon as possible.
+
+        <form action="process.php" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+  
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+  
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+  
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+  </body>
 </html>
