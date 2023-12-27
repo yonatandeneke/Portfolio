@@ -107,7 +107,7 @@
         Have a question? Have an idea? Just want to say hi? Leave your details
         and I'll get back to you as soon as possible.
 
-        <form action="process.php" method="post">
+        <form id="contactForm" action="process.php" method="post">
           <div class="form-group">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -122,11 +122,28 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
           </div>
-  
-          <button type="submit">Submit</button>
+
+          <button type="button" onclick="submitForm()">Submit</button>
         </form>
       </div>
     </section>
 
   </body>
+
+  <script>
+    function submitForm() {
+      var nameInput = document.getElementById("name");
+      var emailInput = document.getElementById("email");
+      var messageInput = document.getElementById("message");
+
+      if (!nameInput.value || !emailInput.value || !messageInput.value) {
+        alert("Please fill in all fields");
+        return;
+      }
+
+      alert("System is not setup as of yet. Just shoot me an email for now: yonatandeneke@gmail.com");
+
+      document.getElementById("contactForm").reset();
+    }
+  </script>
 </html>
